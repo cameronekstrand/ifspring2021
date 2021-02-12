@@ -1,0 +1,52 @@
+html {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+h1{
+    margin-bottom:5px;
+    margin-top: 30px;
+    color:ghostwhite;
+    text-align: center;
+}
+
+h3{
+    margin: 5px;
+    color:ghostwhite;
+    text-align: center;
+}
+
+#rectangle {
+    color: ghostwhite;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+p {
+    color: ghostwhite;
+    text-align:center;
+    line-height: 1.4em;
+    letter-spacing: 0.07em;
+}
+
+#goodline {
+    font-weight: bold;
+    color: rgb(80, 255, 246);
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chorus {
+    font-style: italic;
+    color: rgb(20, 188, 255);
+}
