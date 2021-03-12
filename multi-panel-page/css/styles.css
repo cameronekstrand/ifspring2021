@@ -1,0 +1,156 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.safe-area {
+    width: 960px;
+    margin: auto;
+}
+
+.panel#section1, .panel#section2{
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.panel#section1 p, .panel#section2 p {
+    font-size: 17px;;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+section {
+    display: block;
+}
+
+
+
+
+
+
+
+header {
+    background-image: url(COMPASSINVERT.jpg);
+    color: white;
+    display: block;
+}
+
+header.panel .safe-area {
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 140px; 
+}
+
+header.panel h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+header.panel .subheading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.panel#section1  {
+    background-color: yellow;
+}
+
+.float {
+    float: right;
+    width: 41.75%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+
+
+
+.panel#section2  {
+    background-color: greenyellow;
+}
+
+.images {
+    display: flex;
+}
+
+ul {
+    display: block;
+    padding: 0px;
+}
+
+ul.using-flex li {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+ul.using-flex li div.image-text {
+    display: inline;
+    margin-left: 0px;
+}
+
+ul.using-flex li div.image-text p, h3 {
+    display: block;
+    margin-top: 0px;
+    width: 90%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img.grid {
+    float: left;
+    width:42%;
+    margin-right: 15px;
+}
+
+
+
+
+
+.panel#section3  {
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+section#section3 h2 {
+    color: white;
+}
+
+div p#section3-text  {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+p#copyright {
+    font-size: 20px;
+    color: black;
+}
