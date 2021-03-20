@@ -1,0 +1,26 @@
+html {
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    max-width: 850px;
+    margin: auto;
+}
+
+.content-area {
+    padding: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .recipe-grid {
+        display: flex;
+    }
+    .recipe-grid #instructions {
+        margin-left: 20px;
+        width: 95%;
+    }
+}
