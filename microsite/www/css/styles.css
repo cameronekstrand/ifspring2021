@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#final-navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    max-height: 75px;
+    top: 0;
+    left: 0;
+    color: black;
+    overflow: hidden;
+}
+
+#navbar {
+    margin: auto;
+    max-width: 90%;
+}
+
+#elclasico {
+    font-family: prohibition, sans-serif;
+    font-weight: 300; 
+    font-style: normal;
+    font-size: 250%;
+    margin-top: 12px;
+    margin-left: 2%;
+    white-space: nowrap;
+}
+
+#realmadridlogo {
+    height: 64.28px;
+    width: 48px;
+    padding-top: 5px;
+}
+
+#barcalogo {
+    height: 48.68px;
+    width: 48px;
+    padding-top: 16px;
+    margin-left: 2%;
+}
+
+#pages {
+    font-family: prohibition, sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 175%;
+    margin-top: 20px;
+    margin-left: 4%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+#navbar-content {
+    display: flex;
+    position: relative;
+}
+
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 850px;
+    margin: auto;
+}
+
+#home-photo {
+    padding-top: 67px;
+    width: 100%;
+}
+
+#graph-photos {
+    padding-top: 67px;
+    margin: auto;
+    max-width: 100%;
+    scale: 1;
+}
+
+.content text {
+    margin: auto;
+    font-family: rigid-square, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#spacer {
+    margin-top: 100px;
+}
